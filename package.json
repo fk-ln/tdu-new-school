@@ -14,10 +14,12 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "deploy": "yarn build && gh-pages -d build",
+    "build": "yarn build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "homepage": "https://fk-ln.github.io/tdu-new-school/",
   "eslintConfig": {
     "extends": [
       "react-app",
