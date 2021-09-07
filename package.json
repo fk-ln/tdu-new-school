@@ -1,6 +1,7 @@
 {
   "name": "react-tutrial",
   "version": "0.1.0",
+  "homepage": "https://fk-ln.github.io/tdu-new-school/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -14,12 +15,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "deploy": "yarn build && gh-pages -d build",
-    "build": "yarn build",
+    "deploy": "npm run build && gh-pages -d build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://fk-ln.github.io/tdu-new-school/",
   "eslintConfig": {
     "extends": [
       "react-app",
